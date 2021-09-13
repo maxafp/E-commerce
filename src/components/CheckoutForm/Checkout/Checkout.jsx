@@ -58,7 +58,6 @@ const Checkout = ({ cart, onCaptureCheckout, order, error }) => {
           <CircularProgress />
       </div>
     );
-    // MISSING
 
     if (error) {
       Confirmation = () => (
